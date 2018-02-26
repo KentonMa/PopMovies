@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Pop Movies</string>
+    <string name="action_settings">Settings</string>
+    <string name="settings_activity_name">Settings</string>
+    <string name="detail_activity_name">Detail</string>
+    <string name="poster_desc">Movie poster</string>
+    <!-- Preferences -->
+    <string name="pref_key_sort">pref_key_sort</string>
+    <string name="pref_title_sort">Sort by</string>
+    <string name="pref_default_value_sort">popular</string>
+    <string-array name="pref_label_sort">
+        <item>Most Popular</item>
+        <item>Top Rated</item>
+        <item>Upcoming</item>
+        <item>Now Playing</item>
+    </string-array>
+    <string-array name="pref_values_sort">
+        <item>popular</item>
+        <item>top_rated</item>
+        <item>upcoming</item>
+        <item>now_playing</item>
+    </string-array>
+    <!-- Errors -->
+    <string name="error_no_internet">No internet access. Please enable your Wi-Fi and try again.</string>
+    <!-- Buttons -->
+    <string name="btn_label_try_again">Try Again</string>
+</resources>
